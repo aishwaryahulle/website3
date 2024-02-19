@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* Header Section */
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+}
+nav a{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/*Hero Section  */
+#Hero{
+    display:flex;
+}
+#Hero .column{
+    width:50%;
+}
+#Hero .upper{
+    margin:1rem;
+    padding: 1rem;
+}
+#Hero .row h1{
+    padding: 1rem; 
+}
+#Hero .row{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+#Hero .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Hero .middle .row1{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+#Hero .lower{
+    display: flex;
+     justify-content:center; 
+     align-items: center; 
+}
+#Hero .row3{
+     /* margin-left:1rem; */
+      margin-right:14rem; 
+     padding: 2rem;
+}
+#Hero .column1{
+    width:50%;
+}
+#Hero .column1{
+    border-radius: 0.8rem;
+    border-style: ridge;
+    margin: 1rem;
+}
+#Hero .row5 input{
+       display: flex;
+       flex-direction: column;
+       margin:1rem;
+       padding: 1rem;
+}
+#Hero .row5{
+    display:flex;
+}
+
+/* About Section */
+#About{
+    height: 100vh;
+}
+#About .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#About .upper input{
+    border-radius: 0.8rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Service section */
+#Service{
+    height:100vh;
+}
+#service .upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#Service .middle{
+    display: flex;
+    flex-direction: column;
+}
+#Service .column{
+    display:flex;
+    justify-content: space-around;
+}
+#Service .row{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Service .row1{
+    margin: 1rem;
+    padding: 1rem;
+    width:10rem;
+}
+#Service .row2{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Service .row3{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Service .row4{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Service .row5{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Service .row6{
+    margin: 1rem;
+    padding: 1rem;
+}
